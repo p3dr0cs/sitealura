@@ -1,0 +1,69 @@
+body {
+
+    background: blue;
+    color: white;
+   margin: 0pix;
+   font-family: "Audiowide", sans-serif;
+   margin-bottom: 100px;
+}
+
+
+header {
+ border-bottom: solid 2px  white; 
+ margin: 20px;
+ font-size: 32px;
+ color: rgb(2, 39, 44);
+}
+
+.one{
+ background: rgb(9, 216, 244);
+ padding-bottom: 88px ;
+ padding-top: 80px;
+ display: flex;
+ justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    height: 200px;
+}
+
+.video {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-top: 50px;
+}
+
+
+.video  img {
+   opacity: 0.5;
+   height: 200px;
+}
+
+.video  img:hover { 
+    opacity: 1.0;
+    border: 1px solid green;
+
+}
+
+
+
+
+.categoria h2 {
+     color: rgb(2, 39, 44);
+
+}
